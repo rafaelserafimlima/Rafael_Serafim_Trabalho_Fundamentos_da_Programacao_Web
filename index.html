@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Virtual Rafael Serafim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- CSS interno para ficar mais suscinto, com apenas um arquivo para o projeto-->
+    <style>
+        body {
+            background-image: url(img/back.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        *{
+            border: 0px;
+            margin: 0px;
+            font-family: Roboto;
+        }
+        header{
+            background-color: rgb(9, 19, 75);
+            color: white;
+            display: flex;
+            padding: 10px 100px 10px 100px;
+            justify-content: space-evenly;
+
+        }
+        header div a{
+            background-color: rgb(1, 70, 136);
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px;
+            transition: 0.2s ease; /*Efeito de Transição aplicado diretamente no CSS*/
+        }
+        header div a:hover{
+            background-color: rgb(102, 140, 223);
+        }
+        #div1 {
+            padding-top: 23.5px;
+        }
+        #sobre {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(9, 19, 75);
+            padding: 20px;
+            color: white;
+        }
+        #sobre div{
+            display: flex;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            width: 70%;
+        }
+        #sobre p {
+            margin-top: 15px;
+        }
+        #formacao {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(9, 19, 75);
+            color: white;
+        }
+        #formacao_section {
+            display: flex;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            width: 90%;
+            margin-top: 10px;
+            padding: 15px;
+        }
+        #formacao h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        #formacao h2{
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        #formacao div {
+            margin-bottom: 15px;
+        }
+        #idiomas {
+            text-align: center;
+            margin-top: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: rgb(9, 19, 75);
+            color: white;
+        }
+        #idiomas h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        #idiomas h2{
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        #portfolio {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(9, 19, 75);
+            margin-top: 30px;
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+        #portfolio h1 {
+            margin-bottom: 25px;
+        }
+        #portfolio a {
+            background-color: rgb(1, 70, 136);
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 15px ;
+            transition: 0.3s ease;
+        }
+        #portfolio a:hover {
+            background-color: rgb(102, 140, 223);
+        }
+        #portfolio p {
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        #contato {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            color: white;
+            margin-bottom: 30px;
+        }
+        #contato div{
+            display: flex;
+            flex-direction: column;
+        }
+        #contato form {
+            text-align: center;
+        }
+        #contato h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #contato label {
+            margin-bottom: 5px;
+        }
+        #contato input, textarea {
+            padding: 5px;
+            resize: none;
+        }
+        footer {
+            background-color: rgb(9, 19, 75);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Rafael Serafim</h1> 
+            <h2>Currículo Virtual</h2>
+        </div>
+        <div id="div1">
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#formacao">Formação Acadêmica</a>
+            <a href="#idiomas">Idiomas</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </header>
+    <section id="sobre"> 
+        <div>
+        <h1>Sobre Mim</h1>
+            <p>Me chamo Rafael Serafim, tenho 19 anos, meu principal hobbie é jogar video-game e desenvolver modificações para jogos, principalmente o The Sims 4. Nele, eu crio desde móveis para o jogo até roupas para os personagens.
+            Possuo noções de modelagem 3d e edição de imagem utilizando ferramentas profissionais de edição.
+            </p>
+        </div>
+    </section>
+    <section id="formacao">
+        <section id="formacao_section">
+        <h1>Formação Acadêmica</h1>
+            <div>
+                <h2>Curso Superior em Análise e Desenvolvimento de Sistemas
+                </h2>
+                <h3>Instituição: UNINTER Centro Universitário Internacional
+                </h3>
+                <h3>Carga Horária: 2100 horas
+                </h3>
+                <h4>Início: Janeiro 2024 - Atualmente
+                </h4>
+            </div>
+            <div>
+                <h2>Curso Técnico de Qualificação em Desenvolvimento de Softwares
+                </h2>
+                <h3>Instituição: Senac Paraná
+                </h3>
+                <h3>Carga Horária: 1000 horas
+                </h3>
+                <h4>Início: Agosto 2022 - Conclusão: Agosto 2023
+                </h4>
+            </div>
+            <div>
+                <h2>Curso Técnico de Programação Web
+                </h2>
+                <h3>Instituição: Senac Paraná
+                </h3>
+                <h3>Carga Horária: 240 horas
+                </h3>
+                <h4>Início: Novembro 2022 - Conclusão: Março 2023
+                </h4>
+            </div>
+        </section>
+    </section>
+    <section id="idiomas">
+        <section>
+            <div>
+                <h1>Idiomas</h1>
+                <h2>Inglês</h2>
+                <h3>Nível: Básico</h3>
+                <br>
+                <h2>Português</h2>
+                <h3>Nível: Nativo</h3>
+            </div>
+        </section>
+    </section>
+    <section id="portfolio">
+        <div>
+            <h1>Portfólio</h1>
+            <a href="https://rafaelserafimlima.github.io/Trabalho_Fundamentos_da_Programacao_Web_Portoflio_1/" target="_blank">Site 1</a>
+            <a href="https://rafaelserafimlima.github.io/Trabalho_Fundamentos_da_Programacao_Web_Portoflio_2/" target="_blank">Site 2</a>
+            <p>Sites fictícios desenvolvidos no meu curso de Desenvolvimento de Softwares</p>
+        </div>
+    </section>
+    <section id="contato">
+        <div>
+            <fieldset style="border: 2px solid black; background-color: rgb(9, 19, 75);"> <!-- CSS imbutido-->
+                <h1>Contato</h1>
+                
+                <form action="">
+                    <label for="">Nome:</label>
+                    <br>
+                    <input type="text" size="25px" placeholder="Digite seu Nome">
+                    <br><br>
+                    <label for="">E-mail:</label>
+                    <br>
+                    <input type="text" size="25px" placeholder="Digite seu Email">
+                    <br><br>
+                    <label for="">Mensagem:</label>
+                    <br>
+                    <textarea name="" id="" cols="25" rows="5" placeholder="Digite sua Mensagem"></textarea>
+                    <br><br>
+                    <input type="submit" style="padding: 10px 15px; font-size: 15px; cursor: pointer; background-color: rgb(102, 140, 223); color: white;"> <!-- CSS imbutido-->
+                </form>
+            </fieldset>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Currículo Virtual - Fundamentos de Desenvolvimento Web</p>
+    </footer>
+</body>
+</html>
